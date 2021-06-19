@@ -1,0 +1,235 @@
+/* styling for menu buttons*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    
+  }
+  .header{
+    height: 100px;
+    background: #34495e;
+    padding: 0 20px;
+    color: #fff;
+    opacity: 100%;
+  }
+  .logo{
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+  }
+  
+  .menu{
+    float: right;
+    line-height: 100px;
+  }
+  .menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+  }
+  
+  .menu a:hover
+  {
+    color: #3498db;
+  }
+  
+  
+  
+  @media screen and (max-width:800px) {
+    {
+      display: block;
+    }
+    .menu{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #333;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 80px 0;
+      line-height: normal;
+      transition: 0.7s;
+    }
+    .menu a{
+      display: block;
+      padding: 20px;
+    }
+   
+  }
+  
+  /*styling for menu button ends*/ 
+  /*footer*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+  }
+  
+  footer{
+    background: #f1f1f1;
+    padding: 90px 0;
+  }
+  
+  .footer-container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .logo{
+    width: 180px;
+  }
+  
+  .social-media{
+    margin: 20px 0;
+  }
+  
+  .social-media a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social-media a:hover{
+    color: #34495e;
+  }
+  
+  .right-col h1{
+    font-size: 26px;
+  }
+  
+  
+  .newsletter-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .txtb{
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #293043;
+    background: #ddd;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    min-width: 260px;
+  }
+  
+  .btn{
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: #34495e;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  
+  .page-content{
+    min-height: 100vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  footer
+  {
+    position: absolute;
+    top:1900px;
+    width: 100%;
+  }
+  .news
+  {
+    position: absolute;
+    bottom:210px;
+  }
+  /*footer end*/
+  /*box  background  for products*/
+  .container{
+		width: 90%;
+		padding: 0;
+		margin: 100px auto;
+		background:white;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.box{
+		width: 300px;
+		height: 470px;
+    background: #34495e;
+    opacity: 70%;
+    margin: 0px 50px;
+    transition: 0.7s;
+
+	}
+	.box:hover{
+		transform: scale(1.2);
+    background:  #34495e;
+    opacity: 100%;
+		z-index: 2;
+		box-shadow: 2px 2px 2px #000;
+		
+  } 
+  /*box background ends*/
+  /*texts inside the box*/
+.camz
+{
+  color: white;
+  text-align: center;
+  font-family: "Ariel",sans-serif;
+  
+}
+.camzimg
+{
+  width:200px;
+  position: relative;
+  left:40px;
+}
+.camzimg1
+{
+  width:180px;
+  position: relative;
+  left:40px;
+}
+
+.add_to_cart
+{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left:100px;
+  font-family: "Ariel",sans-serif;
+}
+.add_to_cart:hover
+{
+	color: #100303;
+}
+
+
+  /*text inside the box ends*/

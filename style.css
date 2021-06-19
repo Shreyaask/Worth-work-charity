@@ -1,0 +1,73 @@
+body
+{
+	background-color: white;
+	margin:0;
+	
+}
+.topcontainer
+{
+	
+	margin:0;
+	
+	font-family: "montserrat",sans-serif;
+	height:100px;
+	background: #00a1ab;
+	padding: 0 20px;
+	color: #fff;                    /*#00a1ab*/
+}
+.logout
+{
+	position: absolute;
+	right:50px;
+	top:30px;
+}
+.menu
+{
+	position: relative;
+	left:650px;
+	top:60px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none; 
+	padding: 0 10px;
+	transition: 0.4s;
+	font-weight:bold; 
+}
+.menu:hover
+{
+	color: #100303;
+}
+
+      
+.iusername
+{
+	position: absolute;
+	top:45px;
+	font-size:30px;
+}
+.mh1
+{
+	font-family: 'Delius Unicase', cursive;
+	text-align: center;
+	font-size: 100px;
+	color: #00a8cc;
+ }
+ .mh2
+ {
+ 	font-family: 'Delius Unicase', cursive;
+ 	text-align: center;
+	font-size: 40px;
+	position: absolute;
+	top:300px;
+	left:200px;
+	margin:0 auto;
+ }
+ .dslri
+ {
+ 	position: relative;
+ 	left:500px;
+ }
+.part1
+{   background-color: #155592;
+	 /*linear-gradient(#155592, #1c7ed6);*/
+}
